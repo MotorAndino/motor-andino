@@ -1,7 +1,7 @@
 
 document.querySelectorAll('[data-demo]').forEach(el=>{
-  el.addEventListener('click',e=>{
-    e.preventDefault();
-    alert('Función de demostración. Puedes reemplazarla por una función real más adelante.');
-  });
+ el.addEventListener('click',e=>{
+  e.preventDefault();
+  alert('Esta función está preparada para conectarla más adelante.');
+ });
 });
